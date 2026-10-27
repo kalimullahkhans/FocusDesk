@@ -5,3 +5,4 @@ Disallow: /earnings.csv
 Disallow: /posting-calendar.csv
 
 Sitemap: https://kalimullahkhans.github.io/FocusDesk/sitemap.xml
+Sitemap: https://kalimullahkhans.github.io/FocusDesk/sitemap-images.xml
