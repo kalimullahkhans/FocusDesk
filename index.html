@@ -3,9 +3,49 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="FocusDesk — independent, honest reviews and comparisons of standing desks, ergonomic chairs, monitor arms and home-office gear. Trending picks and deal tracking included. As an Amazon Associate we earn from qualifying purchases.">
-<title>FocusDesk — Honest Home Office &amp; Desk Setup Picks</title>
+<meta name="description" content="FocusDesk — trending home-office gear, live Amazon discounts and honest reviews. Shop by category: daily essentials, summer, winter, gifts for her, gifts for him and beauty. As an Amazon Associate we earn from qualifying purchases.">
+<title>FocusDesk — Trending Gear, Discounts &amp; Honest Picks</title>
 <link rel="stylesheet" href="assets/style.css">
+<link rel="canonical" href="https://kalimullahkhans.github.io/FocusDesk/">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<meta name="theme-color" content="#1e40af">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="FocusDesk">
+<meta property="og:title" content="FocusDesk — Trending Gear, Discounts &amp; Honest Picks">
+<meta property="og:description" content="FocusDesk — trending home-office gear, live Amazon discounts and honest reviews. Shop by category: daily essentials, summer, winter, gifts for her, gifts for him and beauty. As an Amazon Associate we…">
+<meta property="og:url" content="https://kalimullahkhans.github.io/FocusDesk/">
+<meta property="og:image" content="https://kalimullahkhans.github.io/FocusDesk/assets/social/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="FocusDesk — Trending Gear, Discounts &amp; Honest Picks">
+<meta name="twitter:description" content="FocusDesk — trending home-office gear, live Amazon discounts and honest reviews. Shop by category: daily essentials, summer, winter, gifts for her, gifts for him and beauty. As an Amazon Associate we…">
+<meta name="twitter:image" content="https://kalimullahkhans.github.io/FocusDesk/assets/social/og-image.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "FocusDesk",
+  "url": "https://kalimullahkhans.github.io/FocusDesk/",
+  "description": "Trending products, live discounts and independent reviews across home office, daily essentials, seasonal, gifting and beauty categories.",
+  "publisher": { "@type": "Organization", "name": "FocusDesk" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "FocusDesk trending picks",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Dual-motor standing desks" },
+    { "@type": "ListItem", "position": 2, "name": "Ergonomic mesh chairs" },
+    { "@type": "ListItem", "position": 3, "name": "Under-desk walking pads" },
+    { "@type": "ListItem", "position": 4, "name": "Dual monitor arms" },
+    { "@type": "ListItem", "position": 5, "name": "Monitor light bars" },
+    { "@type": "ListItem", "position": 6, "name": "Compact mechanical keyboards" }
+  ]
+}
+</script>
 </head>
 <body>
 <div class="disclosure-bar">As an Amazon Associate, FocusDesk earns from qualifying purchases — at no extra cost to you.</div>
@@ -17,6 +57,7 @@
       <a href="index.html">Home</a>
       <a href="trending.html">Trending</a>
       <a href="deals.html">Deals</a>
+      <a href="categories/index.html">Categories</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
     </nav>
@@ -24,45 +65,182 @@
 </header>
 
 <main class="container">
+
+  <!-- DEAL STRIP: discount signal first, above everything -->
+  <div class="deal-strip">
+    <span class="strip-label"><span class="dot"></span>Deals today</span>
+    <div class="chips">
+      <a class="chip" href="categories/beauty.html">Beauty &amp; skincare <b>up to 50%</b></a>
+      <a class="chip" href="categories/gifts-for-her.html">Gifts for her <b>up to 45%</b></a>
+      <a class="chip" href="deals.html">Chairs <b>up to 35%</b></a>
+      <a class="chip" href="categories/winter.html">Winter warmth <b>up to 40%</b></a>
+      <a class="chip" href="deals.html">Standing desks <b>up to 30%</b></a>
+      <a class="chip" href="categories/summer.html">Summer cooling <b>up to 35%</b></a>
+      <a class="chip" href="categories/daily-life.html">Daily essentials <b>up to 40%</b></a>
+      <a class="chip" href="categories/gifts-for-him.html">Gifts for him <b>up to 40%</b></a>
+    </div>
+  </div>
+
   <section class="hero">
     <div class="hero-copy">
-      <h1>Build a desk you actually want to work at.</h1>
-      <p>FocusDesk is an independent, reader-supported guide to home-office and desk-setup gear. We research stability, comfort and value, track what's trending, watch the discounts, and recommend only what we'd buy ourselves.</p>
-      <a class="btn amzn" href="posts/best-standing-desks.html">Start with Standing Desks →</a>
-      <a class="btn" href="trending.html" style="margin-left:8px;">See What's Trending</a>
+      <h1>Trending gear. Real discounts. No hype.</h1>
+      <p>FocusDesk tracks what people are actually buying, watches where the discounts are deepest, and sends you straight to Amazon's live price — never a stale number. Every pick is chosen on stability, comfort and value, not on who pays more.</p>
+      <a class="btn amzn" href="#trending">See What's Trending →</a>
+      <a class="btn" href="#categories" style="margin-left:8px;">Shop by Category</a>
     </div>
-    <div class="hero-art" aria-hidden="true">
-      <svg viewBox="0 0 320 210" xmlns="http://www.w3.org/2000/svg" role="img">
-        <title>Standing desk illustration</title>
-        <rect x="0" y="0" width="320" height="210" rx="16" fill="#eef4ff"/>
-        <rect x="36" y="118" width="248" height="10" rx="4" fill="#1e40af"/>
-        <rect x="48" y="128" width="10" height="62" rx="3" fill="#2563eb"/>
-        <rect x="262" y="128" width="10" height="62" rx="3" fill="#2563eb"/>
-        <rect x="120" y="60" width="96" height="52" rx="6" fill="#1a2230"/>
-        <rect x="126" y="66" width="84" height="40" rx="4" fill="#3b82f6"/>
-        <rect x="160" y="112" width="16" height="6" rx="2" fill="#1e40af"/>
-        <rect x="140" y="106" width="70" height="5" rx="2" fill="#94a3b8"/>
-        <rect x="90" y="106" width="46" height="8" rx="3" fill="#e2e8f0"/>
-        <circle cx="250" cy="98" r="11" fill="#f59e0b"/>
-        <rect x="244" y="106" width="12" height="12" rx="2" fill="#b45309"/>
-        <path d="M70 128 v40 M70 168 q-10 10 -2 18 M70 168 q10 10 2 18" stroke="#16a34a" stroke-width="5" fill="none" stroke-linecap="round"/>
-        <rect x="216" y="128" width="34" height="42" rx="8" fill="#334155"/>
-        <rect x="222" y="120" width="22" height="10" rx="4" fill="#475569"/>
-        <rect x="20" y="190" width="280" height="6" rx="3" fill="#c7d6f2"/>
-      </svg>
+    <div class="hero-art">
+      <img src="assets/img/hero.jpg" alt="Modern standing desk setup with dual monitors in a bright home office" loading="eager">
     </div>
   </section>
 
-  <div class="band trending">
-    <h2>Trending this week</h2>
-    <p>Our weekly scan of search trends and desk-setup communities, distilled into the gear people are actually buying right now.</p>
-    <a class="btn" href="trending.html">Open Trending →</a>
+  <!-- TRENDING FIRST -->
+  <div class="sec-head" id="trending">
+    <h2>🔥 Trending right now</h2>
+    <a class="see-all" href="trending.html">Full trending list →</a>
+    <p>Ranked by search demand, review velocity and what readers are clicking this week. Discount badges show the typical sale-event depth in that category — the live price is always one click away.</p>
+  </div>
+  <div class="trend-grid">
+    <div class="t-card">
+      <div class="t-img"><img src="assets/img/standing-desk.jpg" alt="Dual-motor electric standing desk" loading="lazy"><span class="t-rank">#1</span><span class="t-off">UP TO 30% OFF</span></div>
+      <div class="t-body">
+        <div class="t-name">Dual-motor standing desks</div>
+        <p class="t-why">The single biggest upgrade to a home office — and the category with the deepest, most predictable cuts.</p>
+        <a class="btn amzn" href="https://www.amazon.com/s?k=dual+motor+electric+standing+desk&amp;tag=focusdesk05-20" target="_blank" rel="nofollow noopener">Check live price</a>
+      </div>
+    </div>
+    <div class="t-card">
+      <div class="t-img"><img src="assets/img/chair.jpg" alt="Ergonomic mesh-back office chair" loading="lazy"><span class="t-rank">#2</span><span class="t-off">UP TO 35% OFF</span></div>
+      <div class="t-body">
+        <div class="t-name">Ergonomic mesh chairs</div>
+        <p class="t-why">Chair prices swing the most of anything here. Premium brands discount hard when a model year changes.</p>
+        <a class="btn amzn" href="https://www.amazon.com/s?k=ergonomic+mesh+office+chair+lumbar+support&amp;tag=focusdesk05-20" target="_blank" rel="nofollow noopener">Check live price</a>
+      </div>
+    </div>
+    <div class="t-card">
+      <div class="t-img"><img src="assets/img/walking-pad.jpg" alt="Under-desk walking pad treadmill" loading="lazy"><span class="t-rank">#3</span><span class="t-off">UP TO 25% OFF</span></div>
+      <div class="t-body">
+        <div class="t-name">Under-desk walking pads</div>
+        <p class="t-why">Fastest-rising item in desk setup — the "walk while you work" search has not slowed down all year.</p>
+        <a class="btn amzn" href="https://www.amazon.com/s?k=under+desk+walking+pad+treadmill&amp;tag=focusdesk05-20" target="_blank" rel="nofollow noopener">Check live price</a>
+      </div>
+    </div>
+    <div class="t-card">
+      <div class="t-img"><img src="assets/img/monitor-arm.jpg" alt="Dual monitor arm on a desk" loading="lazy"><span class="t-rank">#4</span><span class="t-off">UP TO 30% OFF</span></div>
+      <div class="t-body">
+        <div class="t-name">Dual monitor arms</div>
+        <p class="t-why">Best value-per-dollar upgrade in the niche: constant 10–25% coupons, and dual kits barely cost more than single arms.</p>
+        <a class="btn amzn" href="https://www.amazon.com/s?k=dual+monitor+arm+desk+mount&amp;tag=focusdesk05-20" target="_blank" rel="nofollow noopener">Check live price</a>
+      </div>
+    </div>
+    <div class="t-card">
+      <div class="t-img"><img src="assets/img/light-bar.jpg" alt="Monitor light bar over a keyboard" loading="lazy"><span class="t-rank">#5</span><span class="t-off">20–40% OFF</span></div>
+      <div class="t-body">
+        <div class="t-name">Monitor light bars</div>
+        <p class="t-why">Sells out every winter as daylight drops — prices firm up in December, so earlier is cheaper.</p>
+        <a class="btn amzn" href="https://www.amazon.com/s?k=monitor+light+bar+screenbar&amp;tag=focusdesk05-20" target="_blank" rel="nofollow noopener">Check live price</a>
+      </div>
+    </div>
+    <div class="t-card">
+      <div class="t-img"><img src="assets/img/keyboard.jpg" alt="Compact wireless mechanical keyboard" loading="lazy"><span class="t-rank">#6</span><span class="t-off">UP TO 25% OFF</span></div>
+      <div class="t-body">
+        <div class="t-name">Compact mechanical keyboards</div>
+        <p class="t-why">75% layouts keep outselling full-size. Hot-swap models are the ones moving fastest.</p>
+        <a class="btn amzn" href="https://www.amazon.com/s?k=75+percent+hot+swap+mechanical+keyboard&amp;tag=focusdesk05-20" target="_blank" rel="nofollow noopener">Check live price</a>
+      </div>
+    </div>
   </div>
 
+  <!-- CATEGORIES -->
+  <div class="sec-head" id="categories">
+    <h2>Shop by category</h2>
+    <a class="see-all" href="categories/index.html">All categories →</a>
+    <p>Everything is organised by real life, not by department: what you use daily, what you need in summer, what keeps you warm in winter, and what actually makes a good gift.</p>
+  </div>
+  <div class="cat-grid">
+    <a class="cat-card" href="categories/daily-life.html">
+      <img src="assets/img/daily-life.jpg" alt="Everyday essentials flat lay" loading="lazy">
+      <span class="cat-off">UP TO 40% OFF</span><span class="cat-count">8 picks</span>
+      <span class="overlay"><span class="cat-name">Daily-life essentials</span><span class="cat-sub">Bottles, bags, organisers — used every single day</span></span>
+    </a>
+    <a class="cat-card" href="categories/summer.html">
+      <img src="assets/img/summer.jpg" alt="Summer cooling products and iced drink" loading="lazy">
+      <span class="cat-off">UP TO 35% OFF</span><span class="cat-count">8 picks</span>
+      <span class="overlay"><span class="cat-name">Summer picks</span><span class="cat-sub">Cooling, airflow and travel that survives the heat</span></span>
+    </a>
+    <a class="cat-card" href="categories/winter.html">
+      <img src="assets/img/winter.jpg" alt="Cozy winter blanket and hot drink" loading="lazy">
+      <span class="cat-off">UP TO 40% OFF</span><span class="cat-count">8 picks</span>
+      <span class="overlay"><span class="cat-name">Winter picks</span><span class="cat-sub">Warmth, humidity and light for short dark days</span></span>
+    </a>
+    <a class="cat-card" href="categories/gifts-for-her.html">
+      <img src="assets/img/gifts-her.jpg" alt="Elegant gift box for her with candle and necklace" loading="lazy">
+      <span class="cat-off">UP TO 45% OFF</span><span class="cat-count">8 picks</span>
+      <span class="overlay"><span class="cat-name">Gifts for her</span><span class="cat-sub">Mostly under $50 — nothing that feels like a chore</span></span>
+    </a>
+    <a class="cat-card" href="categories/gifts-for-him.html">
+      <img src="assets/img/gifts-him.jpg" alt="Masculine gift set with headphones and watch" loading="lazy">
+      <span class="cat-off">UP TO 40% OFF</span><span class="cat-count">8 picks</span>
+      <span class="overlay"><span class="cat-name">Gifts for him</span><span class="cat-sub">Gadgets and gear he'll actually keep using</span></span>
+    </a>
+    <a class="cat-card" href="categories/beauty.html">
+      <img src="assets/img/beauty.jpg" alt="Skincare bottles and beauty tools" loading="lazy">
+      <span class="cat-off">UP TO 50% OFF</span><span class="cat-count">8 picks</span>
+      <span class="overlay"><span class="cat-name">Beauty &amp; self-care</span><span class="cat-sub">Skincare, tools and the deepest discounts on the site</span></span>
+    </a>
+  </div>
+  <p class="note-strip">Percentages describe the <strong>typical discount depth these categories reach during sale events</strong> — they are not today's price and not a quote. Amazon changes prices constantly, so the button always takes you to the real live price.</p>
+
+  <!-- DISCOUNT BOARD: discount-first ordering -->
+  <div class="sec-head">
+    <h2>Biggest discounts this week</h2>
+    <a class="see-all" href="deals.html">Open the deal board →</a>
+    <p>Ordered by how much prices actually move, not by commission. Every row opens Amazon's live listing with any active coupon applied at checkout.</p>
+  </div>
+  <div class="board">
+    <div class="board-row">
+      <span class="rank">1</span>
+      <div class="b-main"><div class="b-name">Ergonomic chairs</div><div class="b-why">Most volatile pricing in the niche — the same model can move a third between months.</div></div>
+      <span class="b-off">Up to 35%</span>
+      <a class="btn amzn" href="https://www.amazon.com/s?k=ergonomic+office+chair+deals&amp;tag=focusdesk05-20" target="_blank" rel="nofollow noopener">See deals</a>
+    </div>
+    <div class="board-row">
+      <span class="rank">2</span>
+      <div class="b-main"><div class="b-name">Electric standing desks</div><div class="b-why">Deepest cuts of the whole category, especially at model-year changeover and November sales.</div></div>
+      <span class="b-off">Up to 30%</span>
+      <a class="btn amzn" href="https://www.amazon.com/s?k=electric+standing+desk+deals&amp;tag=focusdesk05-20" target="_blank" rel="nofollow noopener">See deals</a>
+    </div>
+    <div class="board-row">
+      <span class="rank">3</span>
+      <div class="b-main"><div class="b-name">Skincare &amp; beauty tools</div><div class="b-why">Multi-buy bundles and coupon stacking make this the deepest discount category overall.</div></div>
+      <span class="b-off">Up to 50%</span>
+      <a class="btn amzn" href="categories/beauty.html">See deals</a>
+    </div>
+    <div class="board-row">
+      <span class="rank">4</span>
+      <div class="b-main"><div class="b-name">Monitor arms</div><div class="b-why">Reliable 10–25% coupons all year; dual-arm kits are the value sweet spot.</div></div>
+      <span class="b-off">Up to 30%</span>
+      <a class="btn amzn" href="https://www.amazon.com/s?k=monitor+arm+desk+mount+coupon&amp;tag=focusdesk05-20" target="_blank" rel="nofollow noopener">See deals</a>
+    </div>
+    <div class="board-row">
+      <span class="rank">5</span>
+      <div class="b-main"><div class="b-name">Space heaters &amp; heated throws</div><div class="b-why">Seasonal: cheapest in late winter clearance, most expensive in the first cold snap.</div></div>
+      <span class="b-off">Up to 40%</span>
+      <a class="btn amzn" href="categories/winter.html">See deals</a>
+    </div>
+    <div class="board-row">
+      <span class="rank">6</span>
+      <div class="b-main"><div class="b-name">Gift sets &amp; candles</div><div class="b-why">Discounting starts weeks before each holiday, then snaps back the day after.</div></div>
+      <span class="b-off">Up to 45%</span>
+      <a class="btn amzn" href="categories/gifts-for-her.html">See deals</a>
+    </div>
+  </div>
+  <p class="note-strip"><strong>How we rank:</strong> by real price movement and reader clicks — not by commission. Amazon pays the same rate whichever product you buy, so there is no incentive to push a worse one.</p>
+
+  <!-- BUYING GUIDES -->
   <h2 class="section-title" id="picks">Buying guides</h2>
   <div class="grid cols-3">
     <div class="card">
-      <div class="thumb"><svg viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><rect width="400" height="150" fill="#eef4ff"/><rect x="70" y="76" width="260" height="11" rx="5" fill="#1e40af"/><rect x="82" y="87" width="12" height="48" rx="4" fill="#2563eb"/><rect x="306" y="87" width="12" height="48" rx="4" fill="#2563eb"/><rect x="120" y="34" width="80" height="40" rx="5" fill="#1a2230"/><rect x="126" y="40" width="68" height="28" rx="3" fill="#3b82f6"/><rect x="90" y="66" width="44" height="7" rx="3" fill="#e2e8f0"/><rect x="238" y="60" width="46" height="14" rx="6" fill="#f59e0b"/><rect x="70" y="135" width="260" height="7" rx="3" fill="#c7d6f2"/></svg></div>
+      <div class="thumb"><img src="assets/img/standing-desk.jpg" alt="Electric standing desk with wooden top" loading="lazy"></div>
       <div class="card-body">
         <span class="tag">Roundup</span>
         <h3><a href="posts/best-standing-desks.html">Best Standing Desks 2026</a></h3>
@@ -71,7 +249,7 @@
       </div>
     </div>
     <div class="card">
-      <div class="thumb"><svg viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><rect width="400" height="150" fill="#f0fdf4"/><rect x="160" y="22" width="80" height="52" rx="24" fill="#15803d"/><rect x="175" y="14" width="50" height="14" rx="7" fill="#166534"/><rect x="150" y="76" width="100" height="22" rx="10" fill="#22c55e"/><rect x="146" y="96" width="108" height="18" rx="9" fill="#15803d"/><rect x="156" y="114" width="18" height="24" rx="4" fill="#166534"/><rect x="226" y="114" width="18" height="24" rx="4" fill="#166534"/><circle cx="200" cy="44" r="4" fill="#dcfce7"/><circle cx="216" cy="44" r="4" fill="#dcfce7"/></svg></div>
+      <div class="thumb"><img src="assets/img/chair.jpg" alt="Ergonomic mesh-back office chair" loading="lazy"></div>
       <div class="card-body">
         <span class="tag">Roundup</span>
         <h3><a href="posts/best-ergonomic-chairs.html">Best Ergonomic Chairs</a></h3>
@@ -80,7 +258,7 @@
       </div>
     </div>
     <div class="card">
-      <div class="thumb"><svg viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><rect width="400" height="150" fill="#fef9f3"/><rect x="40" y="112" width="320" height="12" rx="5" fill="#e2e8f0"/><rect x="66" y="58" width="86" height="46" rx="5" fill="#1a2230"/><rect x="72" y="64" width="74" height="34" rx="3" fill="#60a5fa"/><path d="M152 80 q56 -44 140 -14" stroke="#f59e0b" stroke-width="12" fill="none" stroke-linecap="round"/><rect x="286" y="52" width="26" height="54" rx="6" fill="#b45309"/><rect x="290" y="104" width="18" height="12" rx="3" fill="#92400e"/></svg></div>
+      <div class="thumb"><img src="assets/img/converter.jpg" alt="Standing desk converter riser on a desk" loading="lazy"></div>
       <div class="card-body">
         <span class="tag">Comparison</span>
         <h3><a href="posts/standing-desk-vs-converter.html">Desk vs Converter</a></h3>
@@ -89,7 +267,7 @@
       </div>
     </div>
     <div class="card">
-      <div class="thumb"><svg viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><rect width="400" height="150" fill="#eff6ff"/><rect x="44" y="104" width="312" height="12" rx="5" fill="#2563eb"/><rect x="70" y="40" width="104" height="56" rx="6" fill="#1a2230"/><rect x="78" y="48" width="88" height="40" rx="4" fill="#93c5fd"/><rect x="220" y="44" width="104" height="52" rx="6" fill="#334155"/><path d="M174 52 v40 M174 92 h46" stroke="#f59e0b" stroke-width="5" fill="none" stroke-linecap="round"/><rect x="44" y="124" width="312" height="8" rx="4" fill="#bfdbfe"/></svg></div>
+      <div class="thumb"><img src="assets/img/monitor-arm.jpg" alt="Dual monitors on an aluminum monitor arm" loading="lazy"></div>
       <div class="card-body">
         <span class="tag">Roundup</span>
         <h3><a href="posts/best-monitor-arms.html">Best Monitor Arms</a></h3>
@@ -98,7 +276,7 @@
       </div>
     </div>
     <div class="card">
-      <div class="thumb"><svg viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><rect width="400" height="150" fill="#f5f3ff"/><circle cx="200" cy="76" r="42" fill="#1a2230"/><circle cx="200" cy="76" r="27" fill="#312e81"/><circle cx="200" cy="76" r="13" fill="#8b5cf6"/><circle cx="211" cy="65" r="5" fill="#ede9fe"/><rect x="170" y="26" width="60" height="12" rx="6" fill="#1a2230"/><rect x="144" y="118" width="112" height="12" rx="6" fill="#c4b5fd"/></svg></div>
+      <div class="thumb"><img src="assets/img/webcam.jpg" alt="Webcam mounted on top of a monitor" loading="lazy"></div>
       <div class="card-body">
         <span class="tag">Roundup</span>
         <h3><a href="posts/best-webcams.html">Best Webcams for Remote Work</a></h3>
@@ -107,7 +285,7 @@
       </div>
     </div>
     <div class="card">
-      <div class="thumb"><svg viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><rect width="400" height="150" fill="#fdf2f8"/><rect x="60" y="60" width="280" height="46" rx="12" fill="#db2777" opacity=".85"/><rect x="76" y="72" width="120" height="24" rx="8" fill="#1a2230"/><rect x="216" y="72" width="106" height="24" rx="8" fill="#f9a8d4"/><circle cx="270" cy="84" r="9" fill="#831843"/><rect x="60" y="118" width="280" height="8" rx="4" fill="#fbcfe8"/></svg></div>
+      <div class="thumb"><img src="assets/img/cozy.jpg" alt="Premium desk corner with lamp and desk mat" loading="lazy"></div>
       <div class="card-body">
         <span class="tag">Accessories</span>
         <h3><a href="deals.html">Deals &amp; Discounts</a></h3>
@@ -115,11 +293,64 @@
         <p>The categories with the deepest discounts right now — every button shows Amazon's live price.</p>
       </div>
     </div>
+    <div class="card">
+      <div class="thumb"><img src="assets/img/standing-desk.jpg" alt="Standing desk during Black Friday sale season" loading="lazy"></div>
+      <div class="card-body">
+        <span class="tag">Seasonal</span>
+        <h3><a href="posts/black-friday-standing-desk-deals.html">Black Friday Desk Timing</a></h3>
+        <div class="meta">Updated Oct 2026 · strategy</div>
+        <p>When the real discounts land, which brands actually cut, and how to spot a fake "was" price.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="thumb"><img src="assets/img/converter.jpg" alt="Budget standing desk under 300 dollars" loading="lazy"></div>
+      <div class="card-body">
+        <span class="tag">Budget</span>
+        <h3><a href="posts/best-standing-desk-under-300.html">Best Desk Under $300</a></h3>
+        <div class="meta">Updated Oct 2026 · 3 picks</div>
+        <p>What $300 really buys now — dual motors, memory presets, and the one feature never to skip.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="thumb"><img src="assets/img/desk-mat.jpg" alt="Small home office desk setup" loading="lazy"></div>
+      <div class="card-body">
+        <span class="tag">Setup guide</span>
+        <h3><a href="posts/small-home-office-desk-setup.html">Small Room Setups</a></h3>
+        <div class="meta">Planning guide</div>
+        <p>Depth before width: the space maths, layout order, and the five buys that earn their footprint.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="thumb"><img src="assets/img/hero.jpg" alt="Complete home office setup across three budgets" loading="lazy"></div>
+      <div class="card-body">
+        <span class="tag">Bundle</span>
+        <h3><a href="posts/complete-home-office-setup-under-2000.html">Complete Setups, 3 Budgets</a></h3>
+        <div class="meta">Planning guide · 8-minute read</div>
+        <p>Chair → desk → monitor height → light. The buy order that gets 80% of the benefit for the least money.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:24px;">
+    <div class="card-body">
+      <h3>Most-checked picks this week</h3>
+      <p>Straight to Amazon's live listings — prices and coupons move hourly, so the number you see there is the real one.</p>
+      <a class="btn amzn" href="https://www.amazon.com/s?k=dual+motor+electric+standing+desk&amp;tag=focusdesk05-20" target="_blank" rel="nofollow noopener">Standing desks</a>
+      <a class="btn amzn" href="https://www.amazon.com/s?k=ergonomic+mesh+office+chair+lumbar+support&amp;tag=focusdesk05-20" target="_blank" rel="nofollow noopener" style="margin-left:8px;">Chairs</a>
+      <a class="btn amzn" href="https://www.amazon.com/s?k=monitor+arm+desk+mount&amp;tag=focusdesk05-20" target="_blank" rel="nofollow noopener" style="margin-left:8px;">Monitor arms</a>
+      <a class="btn amzn" href="https://www.amazon.com/s?k=monitor+light+bar+screenbar&amp;tag=focusdesk05-20" target="_blank" rel="nofollow noopener" style="margin-left:8px;">Light bars</a>
+    </div>
+  </div>
+
+  <div class="band blackfriday">
+    <h2>Black Friday is coming</h2>
+    <p>Desk and chair discounts move in a predictable staircase every November — and the pre-sale window usually beats Cyber Monday on stock. Read the timing before you buy.</p>
+    <a class="btn" href="posts/black-friday-standing-desk-deals.html">See the timing →</a>
   </div>
 
   <div class="band deals">
     <h2>Watching the discounts</h2>
-    <p>Desks, chairs, arms and webcams — we track which categories are discounted and send you to the live price, never a stale number.</p>
+    <p>We track which categories are discounted and send you to the live price — never a stale number, never a fake "was" price.</p>
     <a class="btn" href="deals.html">Open Deals →</a>
   </div>
 
@@ -128,7 +359,7 @@
     <div class="card">
       <div class="card-body">
         <h3>Independent by design</h3>
-        <p>Amazon pays the same commission no matter which product you choose — so our rankings are driven by stability testing, warranty terms, and real trade-offs, not by who pays more.</p>
+        <p>Amazon pays the same commission no matter which product you choose — so our rankings are driven by stability, warranty terms and real trade-offs, not by who pays more.</p>
       </div>
     </div>
     <div class="card">
@@ -140,16 +371,22 @@
   </div>
 
   <div class="disclaimer">
-    <strong>Affiliate disclosure:</strong> FocusDesk is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. <em>As an Amazon Associate, I earn from qualifying purchases.</em> This never affects our recommendations or your price.
+    <strong>Affiliate disclosure:</strong> FocusDesk is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. <em>As an Amazon Associate, I earn from qualifying purchases.</em> This never affects our recommendations or your price. Discount percentages shown on cards describe the typical sale-event depth of a category — they are not current prices, and every price you see on Amazon is the live one.
   </div>
 </main>
 
 <footer class="site-footer">
   <div class="foot-links">
-    <a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="privacy.html">Privacy Policy</a> · <a href="index.html">Home</a>
+    <a href="index.html">Home</a> · <a href="trending.html">Trending</a> · <a href="deals.html">Deals</a> · <a href="categories/index.html">Categories</a>
+  </div>
+  <div class="foot-links">
+    <a href="categories/daily-life.html">Daily life</a> · <a href="categories/summer.html">Summer</a> · <a href="categories/winter.html">Winter</a> · <a href="categories/gifts-for-her.html">Gifts for her</a> · <a href="categories/gifts-for-him.html">Gifts for him</a> · <a href="categories/beauty.html">Beauty</a>
+  </div>
+  <div class="foot-links" style="margin-top:6px;">
+    <a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="privacy.html">Privacy Policy</a>
   </div>
   <div>As an Amazon Associate, FocusDesk earns from qualifying purchases.</div>
-  <div class="foot-note">© 2026 FocusDesk. Independent home-office gear guide. Not affiliated with or endorsed by Amazon.</div>
+  <div class="foot-note">© 2026 FocusDesk. Independent gear guide. Not affiliated with or endorsed by Amazon.</div>
 </footer>
 </body>
 </html>

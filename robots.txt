@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard.html
+Disallow: /earnings.csv
+Disallow: /posting-calendar.csv
+
+Sitemap: https://kalimullahkhans.github.io/FocusDesk/sitemap.xml
